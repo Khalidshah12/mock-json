@@ -2,7 +2,7 @@
   "projectData": [
     {
       "id": 1,
-      "projectData": "sample data",
+      "projectName": "sample data",
       "pipelineName": "my pipeline"
     }
   ]
