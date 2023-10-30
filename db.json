@@ -5,5 +5,173 @@
       "projectName": "sample data",
       "pipelineName": "my pipeline"
     }
+  ],
+  "sampleData": [
+    {
+      "id": "p1",
+      "projectName": "Sample project 1",
+      "projectDesc": "description",
+      "pipelines": [
+        {
+          "id": 2,
+          "pipelineName": "Ingestion pipeline",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "queued",
+          "starred": true,
+          "startTime": 1695144400,
+          "endTime": 1695146400,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        },
+        {
+          "id": 3,
+          "pipelineName": "Data Cleanup",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "draft",
+          "starred": true,
+          "startTime": 1695138000,
+          "endTime": 1695138600,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        },
+        {
+          "id": 1,
+          "pipelineName": "Data Cleanup",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "draft",
+          "starred": true,
+          "startTime": 1695136000,
+          "endTime": 1695142400,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        },
+        {
+          "id": 6,
+          "pipelineName": "Transfer Data",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "inprogress",
+          "starred": false,
+          "startTime": 1695126000,
+          "endTime": 1695126500,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        },
+        {
+          "id": 4,
+          "pipelineName": "Mock Transfer",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "failed",
+          "starred": false,
+          "startTime": 1695124000,
+          "endTime": 1695125000,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        },
+        {
+          "id": 5,
+          "pipelineName": "Website user data",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "complete",
+          "starred": true,
+          "startTime": 1695120000,
+          "endTime": 1695139000,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "projectName": "My project",
+      "projectDesc": "description",
+      "pipelines": [
+        {
+          "id": 1,
+          "pipelineName": "Data cleanup",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "draft",
+          "starred": false,
+          "startTime": 1695126000,
+          "endTime": 1695126500,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        },
+        {
+          "id": 2,
+          "pipelineName": "Trail project",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "complete",
+          "starred": true,
+          "startTime": 1673238900,
+          "endTime": 1673238900,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "projectName": "Sample project 2",
+      "projectDesc": "description",
+      "pipelines": [
+        {
+          "id": 1,
+          "pipelineName": "My pipeline",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "inprogress",
+          "starred": true,
+          "startTime": 1695120000,
+          "endTime": 1695139000,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "projectName": "Backup Project 1",
+      "projectDesc": "description",
+      "pipelines": [
+        {
+          "id": 1,
+          "pipelineName": "sample pipeline 1",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "failed",
+          "starred": true,
+          "startTime": 1673844000,
+          "endTime": 1673844000,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        },
+        {
+          "id": 2,
+          "pipelineName": "sample pipeline 2",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "queued",
+          "starred": false,
+          "startTime": 1674137100,
+          "endTime": 1674137100,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jpg"
+        },
+        {
+          "id": 3,
+          "pipelineName": "sample pipeline 3",
+          "pipelineDesc": "Pipeline created to manage all the sandboxes to experiment before implementation.",
+          "status": "failed",
+          "starred": false,
+          "startTime": 1672833600,
+          "endTime": 1672833600,
+          "workflowType": "User Created",
+          "imgUrl": "./Images/dummy_pipeline_snapshot.jp"
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "projectName": "My project 2",
+      "projectDesc": "description",
+      "pipelines": []
+    }
   ]
 }
